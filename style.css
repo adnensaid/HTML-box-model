@@ -1,0 +1,102 @@
+/* base */
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+/* app */
+.app{
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+.nav{
+  padding: 0;
+  margin: 0;
+}
+.nav .list{
+  background: #95a5a6;
+  padding: 0;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+  border: .1rem solid #4b4b4b;
+}
+.nav .list .list1{
+  display: inline-block;
+  width: 30%;
+}
+.nav .list .list1 li{
+  display: inline-block;
+}
+.nav .list .list2{
+  display: inline-block;
+  float: right;
+  width: 70%;
+}
+.nav .list li{
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 1rem;
+  color: #dcdde1;
+  background: #4b4b4b;
+}
+.nav .list .list1 li:nth-child(2){
+  background: none;
+}
+/* carousel */
+.carouselContent{
+  min-height: 30rem;
+  background: #ecf0f1;
+}
+/* titre du site */
+.title{
+  text-align: center;
+  font-size: 2rem;
+}
+.title span{
+  font-size: 1rem;
+}
+
+/*  section articles */
+.listArticles{
+  display: block;
+  margin: auto;
+  position: relative;
+  margin: 6rem 0;
+
+}
+.listArticles article{
+  background: #ecf0f1;
+  width: 20rem;
+  height: 25rem;
+  display: inline-block;
+}
+.listArticles article:nth-child(3){
+  position: absolute;
+  right: 0;
+}
+.listArticles article:nth-child(2){
+  position: absolute;
+  left: calc(50vh + 10rem);
+}
+.underline{
+  border-top: .2rem solid black;
+}
+.form{
+  margin: 6rem 0;
+}
+.formContent{
+  max-width: 60rem;
+  margin: auto;
+}
+input, textarea{
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: .5rem 0;
+}

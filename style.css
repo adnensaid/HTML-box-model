@@ -63,27 +63,7 @@ ul{
 }
 
 /*  section articles */
-.listArticles{
-  display: block;
-  margin: auto;
-  position: relative;
-  margin: 6rem 0;
 
-}
-.listArticles article{
-  background: #ecf0f1;
-  width: 20rem;
-  height: 25rem;
-  display: inline-block;
-}
-.listArticles article:nth-child(3){
-  position: absolute;
-  right: 0;
-}
-.listArticles article:nth-child(2){
-  position: absolute;
-  left: calc(50vh + 10rem);
-}
 .underline{
   border-top: .2rem solid black;
 }
@@ -99,4 +79,23 @@ input, textarea{
   width: 100%;
   margin: 1rem 0;
   padding: .5rem 0;
+}
+.test{
+}
+.test article{
+  width: 20rem;
+  height: 20rem;
+  background: #dcdde1;
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+}
+.test article:nth-child(1){
+  float: left;
+}
+.test article:nth-child(2){
+  margin-left: calc(50vw - 30rem)
+}
+.test article:nth-child(3){
+  float: right;
 }
